@@ -59,11 +59,14 @@ figcaption {
     opacity: 70%;
 }
 h1, p {
-    margin-left: 25px;
+    margin:0 auto auto 25px;
 }
 p {
     opacity: 70%;
     font-weight: 600;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-top: 10px;
 }
 .Daniel_Clifford {
     background-color: hsl(263, 55%, 52%);
@@ -86,30 +89,48 @@ p {
 .Daniel_Clifford p {
     color: hsl(0, 0%, 81%);
     width: 420px;
-    font-size: 12px;
-    line-height: 1.4em;
 }
 .Jonathan_Walters {
     background-color: hsl(217, 19%, 35%);
     grid-column: 3;
     grid-row: 1;
-    width: 200px;
+    width: 225px;
     height: 250px;
     border-radius: 10px;
+}
+.Jonathan_Walters .head, .Jonathan_Walters .side {
+    color: white;
+}
+.Jonathan_Walters h1 {
+    color: white;
+}
+.Jonathan_Walters p {
+    width: 160px;
+    color: white;
 }
 .Jeanette_Harmon {
     background-color: hsl(0, 0%, 100%);
     grid-column: 1;
     grid-row: 2;
-    width: 200px;
+    width: 212px;
     height: 250px;
     border-radius: 10px;
+}
+.Jeanette_Harmon .side {
+    font-weight: 600;
+}
+.Jeanette_Harmon h1 {
+    width: 150px;
+}
+.Jeanette_Harmon p {
+    margin-top: 10%;
+    width: 180px;
 }
 .Patrick_Abrams {
     background-color: hsl(219, 29%, 14%);
     grid-column: 2 / span 2;
     grid-row: 2;
-    width: 450px;
+    width: 475px;
     height: 250px;
     border-radius: 10px;
 }
@@ -117,7 +138,7 @@ p {
     background-color: hsl(0, 0%, 100%);
     grid-column: 4;
     grid-row: 1 / span 2;
-    width: 200px;
+    width: 225px;
     height: 520px;
     border-radius: 10px;
 }
