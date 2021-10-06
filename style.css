@@ -155,6 +155,16 @@ p {
     height: 520px;
     border-radius: 10px;
 }
+.Kira_Whittle .side {
+    font-weight: 600;
+}
+.Kira_Whittle p {
+    width: 160px;
+    margin-top: 7%;
+}
+@media only screen and (max-width: 375px) {
+    
+}
 
 
 
