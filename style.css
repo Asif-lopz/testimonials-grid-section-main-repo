@@ -48,7 +48,7 @@ figcaption {
 .main .head {
     font-size: 15px;
     font-weight: 600;
-    opacity: 95%;
+    opacity: 75%;
 }
 .main .side {
     position: relative;
@@ -130,9 +130,22 @@ p {
     background-color: hsl(219, 29%, 14%);
     grid-column: 2 / span 2;
     grid-row: 2;
-    width: 475px;
+    width: 463px;
     height: 250px;
     border-radius: 10px;
+}
+.Patrick_Abrams .head, .Patrick_Abrams .side {
+    color: white;
+}
+.Patrick_Abrams h1 {
+    color: white;
+    font-size: 18px;
+    width: 430px;
+}
+.Patrick_Abrams p {
+    color: white;
+    width: 410px;
+    margin-top: 5%;
 }
 .Kira_Whittle {
     background-color: hsl(0, 0%, 100%);
