@@ -10,7 +10,7 @@ body{
 }
 img {
     border-radius: 50%;
-    width: 25px;
+    width: 30px;
 }
 h1 {
     font-weight: 600;
@@ -45,21 +45,18 @@ figure{
 figcaption {
     margin-left: 15px;
 }
-img {
-    position: relative;
-    top: 5px;
-}
 .main .head {
     font-size: 15px;
     font-weight: 600;
-    opacity: 70%;
+    opacity: 95%;
 }
 .main .side {
     position: relative;
-    bottom: 6px;
-    margin-left: 40px;
+    bottom: 10px;
+    margin-left: 45px;
     font-size: 12px;
     font-weight: 400;
+    opacity: 70%;
 }
 h1, p {
     margin-left: 25px;
@@ -76,8 +73,11 @@ p {
     height: 250px;
     background-image: url("img/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position-x: 80%;
+    background-position-x: 82%;
     border-radius: 10px;
+}
+.Daniel_Clifford .head,.Daniel_Clifford .side{
+    color: white;
 }
 .Daniel_Clifford h1 {
     color: white;
@@ -86,6 +86,8 @@ p {
 .Daniel_Clifford p {
     color: hsl(0, 0%, 81%);
     width: 420px;
+    font-size: 12px;
+    line-height: 1.4em;
 }
 .Jonathan_Walters {
     background-color: hsl(217, 19%, 35%);
