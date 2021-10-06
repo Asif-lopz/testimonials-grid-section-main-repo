@@ -35,6 +35,7 @@ p{
     grid-gap: 20px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 figure{
     display: flex;
@@ -78,6 +79,7 @@ p {
     background-repeat: no-repeat;
     background-position-x: 82%;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Daniel_Clifford .head,.Daniel_Clifford .side{
     color: white;
@@ -97,6 +99,7 @@ p {
     width: 225px;
     height: 250px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Jonathan_Walters .head, .Jonathan_Walters .side {
     color: white;
@@ -115,6 +118,7 @@ p {
     width: 212px;
     height: 250px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Jeanette_Harmon .side {
     font-weight: 600;
@@ -133,6 +137,7 @@ p {
     width: 463px;
     height: 250px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Patrick_Abrams .head, .Patrick_Abrams .side {
     color: white;
@@ -154,6 +159,7 @@ p {
     width: 225px;
     height: 520px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Kira_Whittle .side {
     font-weight: 600;
@@ -163,7 +169,7 @@ p {
     margin-top: 7%;
 }
 @media only screen and (max-width: 375px) {
-    
+
 }
 
 
