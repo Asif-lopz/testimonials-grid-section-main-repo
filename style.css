@@ -169,7 +169,77 @@ p {
     margin-top: 7%;
 }
 @media only screen and (max-width: 375px) {
-
+    .box {
+        margin-top: 15%;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    p {
+        line-height: 1.5em;
+    }
+    .Daniel_Clifford {
+        grid-column: 1;
+        grid-row: 1;
+        width: 315px;
+        height: 400px;
+    }
+    .Daniel_Clifford h1 {
+        width: 255px;
+    }
+    .Daniel_Clifford p {
+        width: 210px;
+        margin-top: 15px;
+    }
+    .Jonathan_Walters {
+        grid-column: 1;
+        grid-row: 2;
+        width: 315px;
+        height: 225px;
+    }
+    .Jonathan_Walters h1 {
+        width: 250px;
+    }
+    .Jonathan_Walters p {
+        width: 250px;
+        margin-top: 15px;
+    }
+    .Jeanette_Harmon {
+        grid-column: 1;
+        grid-row: 3;
+        width: 315px;
+        height: 220px;
+    }
+    .Jeanette_Harmon h1 {
+        width: 200px;
+    }
+    .Jeanette_Harmon p {
+        margin-top: 15px;
+        width: 230px;
+    }
+    .Patrick_Abrams {
+        grid-column: 1;
+        grid-row: 4;
+        width: 315px;
+        height: 360px;
+    }
+    .Patrick_Abrams h1 {
+        width: 220px;
+    }
+    .Patrick_Abrams p {
+        width: 220px;
+    }
+    .Kira_Whittle {
+        grid-column: 1;
+        grid-row: 5;
+        width: 315px;
+        height: 430px;
+    }
+    .Kira_Whittle h1{
+        width: 250px;
+    }
+    .Kira_Whittle p {
+        width: 230px;
+    }
 }
 
 
